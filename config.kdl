@@ -42,7 +42,7 @@ keybinds clear-defaults=true {
         bind "i" { TogglePanePinned; SwitchToMode "Normal"; }
     }
     move {
-        bind "Super h" { SwitchToMode "Normal"; }
+        bind "Super y" { SwitchToMode "Normal"; }
         bind "n" "Tab" { MovePane; }
         bind "p" { MovePaneBackwards; }
         bind "h" "Left" { MovePane "Left"; }
@@ -213,7 +213,7 @@ keybinds clear-defaults=true {
         bind "Super t" { SwitchToMode "Tab"; }
     }
     shared_except "move" "locked" {
-        bind "Super h" { SwitchToMode "Move"; }
+        bind "Super y" { SwitchToMode "Move"; }
     }
     shared_except "tmux" "locked" {
         bind "Super b" { SwitchToMode "Tmux"; }
