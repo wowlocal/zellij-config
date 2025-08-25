@@ -180,7 +180,7 @@ keybinds clear-defaults=true {
         bind "Super g" { SwitchToMode "Locked"; }
         bind "Super q" { Quit; }
         bind "Super f" { ToggleFloatingPanes; }
-        bind "Alt n" { NewPane; }
+        // bind "Alt n" { NewPane; }
         bind "Alt i" { MoveTab "Left"; }
         bind "Alt o" { MoveTab "Right"; }
         bind "Alt h" "Alt Left" { MoveFocusOrTab "Left"; }
